@@ -1,0 +1,75 @@
+.table{
+	max-width: 900px;
+	position: relative;
+	margin: 50px auto;
+	padding: 20px 25px 0px 25px;
+	-webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+	-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+	box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+}
+.table__info{
+	display: flex;
+	justify-content: space-between;
+}
+.table__name{
+	display: flex;
+	flex:0 1 25%;
+	justify-content: center;
+}
+.table__numerals{
+	display: flex;
+	flex:0 1 60%;
+	justify-content: space-between;
+}
+.table__price{
+	margin: 0px 0px 0px 25px;
+}
+.table__plug{
+	width: 20px;
+	height: 20px;
+}
+.item{
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 0px 15px 0px;
+	border-bottom: 1px solid #ADA4A4;
+}
+.item__info{
+	display: flex;
+	flex:0 1 25%;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+.item__numerals{
+	display: flex;
+	flex: 0 1 60%;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+.item__img img{
+	width: 30px;
+	height: 30px;
+}
+.item__sum{
+	position: relative;
+}
+.item__sum_number{
+	width: 15px;
+	text-align: center;
+	border:none;
+}
+.item__sum_minus,
+.item__sum_plus{
+	cursor: pointer;
+}
+.item__delete{
+	display: flex;
+	align-items: flex-end;
+	cursor: pointer;
+}
+/*==================================================>*/
+@media (max-width: 520px){
+	.table__info{
+		font-size: 12px;
+	}
+}
